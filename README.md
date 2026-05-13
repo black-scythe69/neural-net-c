@@ -36,14 +36,15 @@ Epoch 10000 -> 0.002578
 gcc NeuralNet.c -o neural -lm
 ./neural
 
-What I learned
+## What I learned
 Implementing matrix operations from scratch in C
 Forward pass and backpropagation math
 Sigmoid activation and its derivative
 Gradient flow through layers
 Why weight initialization matters for convergence
 Debugging segfaults and memory issues in C
-Future improvements
+
+## Future improvements
 Xavier weight initialization
 Configurable network architecture
 More hidden layers
