@@ -31,11 +31,6 @@ Epoch 10000 -> 0.002578
 [1,0] -> 0.986103  (expected 1)
 [1,1] -> 0.011986  (expected 0)
 
-## Compile and Run
-```bash
-gcc NeuralNet.c -o neural -lm
-./neural
-
 ## What I learned
 Implementing matrix operations from scratch in C
 Forward pass and backpropagation math
@@ -49,3 +44,8 @@ Xavier weight initialization
 Configurable network architecture
 More hidden layers
 Additional activation functions
+
+## Compile and Run
+```bash
+gcc NeuralNet.c -o neural -lm
+./neural
