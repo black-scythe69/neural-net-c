@@ -172,17 +172,14 @@ x1=createMatrix(2, 1);
 x2=createMatrix(2, 1);
 
 fill_weights(w1);
-b1->data[0] = ((float)rand()/RAND_MAX) * 0.2 - 0.1;
-b1->data[1] = ((float)rand()/RAND_MAX) * 0.2 - 0.1;
-w2->data[0]=0.4;
-w2->data[1]=0.6;
-b2->data[0]=0.3;
+fill_weights(w2);
+fill_bias(b1);
 fill_bias(b2);
 
 printf("Matrices initialised\n");
 float xor_x[4][2]={{0, 0},{0, 1},{1, 0},{1, 1}};
 float xor_y[4]={0, 1, 1, 0};
-int epochs = 10000;
+int epochs = 15000;
 int e, s;
 
 for(e=0; e<=epochs; e++){
