@@ -19,17 +19,17 @@ Built as an independent project in my 2nd semester of B.Tech Cybersecurity.
 - Backpropagation with stochastic gradient descent
 
 ## Loss Curve
-Epoch 0     -> 0.345183
-Epoch 1000  -> 0.015598
-Epoch 2500  -> 0.004466
-Epoch 5000  -> 0.001964
-Epoch 10000 -> 0.000909
+- Epoch 0     -> 0.345183
+- Epoch 1000  -> 0.015598
+- Epoch 2500  -> 0.004466
+- Epoch 5000  -> 0.001964
+- Epoch 10000 -> 0.000909
 
 ## Final Output (XOR)
-[0,0] -> 0.030384  (expected 0)
-[0,1] -> 0.992054  (expected 1)
-[1,0] -> 0.957601  (expected 1)
-[1,1] -> 0.028842  (expected 0)
+- [0,0] -> 0.030384  (expected 0)
+- [0,1] -> 0.992054  (expected 1)
+- [1,0] -> 0.957601  (expected 1)
+- [1,1] -> 0.028842  (expected 0)
 
 ## What I learned
 Implementing matrix operations from scratch in C
