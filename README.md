@@ -19,17 +19,19 @@ Built as an independent project in my 2nd semester of B.Tech Cybersecurity.
 - Backpropagation with stochastic gradient descent
 
 ## Loss Curve
-- Epoch 0     -> 0.345183
-- Epoch 1000  -> 0.015598
-- Epoch 2500  -> 0.004466
-- Epoch 5000  -> 0.001964
-- Epoch 10000 -> 0.000909
+- Epoch 0     -> 0.336379
+- Epoch 1000  -> 0.023061
+- Epoch 2500  -> 0.007100
+- Epoch 5000  -> 0.003146
+- Epoch 10000 -> 0.001452
+- Epoch 12500 -> 0.001139
+- Epoch 14000 -> 0.001008
 
 ## Final Output (XOR)
-- [0,0] -> 0.030384  (expected 0)
-- [0,1] -> 0.992054  (expected 1)
-- [1,0] -> 0.957601  (expected 1)
-- [1,1] -> 0.028842  (expected 0)
+- [0,0] -> 0.031660  (expected 0)
+- [0,1] -> 0.992839  (expected 1)
+- [1,0] -> 0.955179  (expected 1)
+- [1,1] -> 0.030263  (expected 0)
 
 ## What I learned
 Implementing matrix operations from scratch in C
@@ -38,7 +40,7 @@ Sigmoid activation and its derivative
 Gradient flow through layers
 Why weight initialization matters for convergence
 Debugging segfaults and memory issues in C
-Early stopping at 9000 epochs, avg loss->0.001019
+Early stopping at 14000 epochs, avg loss->0.001008
 
 ## Future improvements
 Xavier weight initialization
