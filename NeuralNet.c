@@ -31,6 +31,13 @@ W->data[i]=((float)rand()/RAND_MAX) * 2.0 - 1.0;
 }
 }
 
+void fill_bias(struct matrix* B){
+int i;
+for(i=0; i<(B->cols*B->rows); i++){
+B->data[i]=((float)rand()/RAND_MAX) * 2.0 - 1.0;
+}
+}
+
 struct matrix *multiply(struct matrix *a, struct matrix *b){
 struct matrix *R=createMatrix(a->rows, b->cols);
 int i, j, k;
@@ -192,6 +199,8 @@ total_loss+=(E->data[0]*E->data[0]);
 if(e%250==0)
  printf("Epoch %d, avg loss: %f\n ", e, 
 total_loss/4);
+if(total_loss/4 < 0.001)
+ break;
 }
 
 float test_x[4][2] = {{0,0},{0,1},{1,0},{1,1}};
