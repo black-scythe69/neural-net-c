@@ -38,6 +38,7 @@ Sigmoid activation and its derivative
 Gradient flow through layers
 Why weight initialization matters for convergence
 Debugging segfaults and memory issues in C
+Early stopping at 9000 epochs, avg loss->0.001019
 
 ## Future improvements
 Xavier weight initialization
