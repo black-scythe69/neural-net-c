@@ -128,7 +128,7 @@ for(int i=0; i<del2->rows; i++){
 }
 assign(gradW2, multiply(del2, a1T));
 assign(gradB2, del2);
-assign(del1, multiply(del2, w2T));
+assign(del1, multiply(w2T, del2));
 for(int i=0; i<del1->rows; i++){
   del1->data[i] *= a1->data[i] * (1.0 - a1->data[i]);
 }
