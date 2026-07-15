@@ -17,21 +17,24 @@ Built as an independent project in my 2nd semester of B.Tech Cybersecurity.
 - Sigmoid activation function
 - Mean squared error loss
 - Backpropagation with stochastic gradient descent
+- lr=2.0, taken intentionally for this toy network
 
 ## Loss Curve
-- Epoch 0     -> 0.336379
-- Epoch 1000  -> 0.023061
-- Epoch 2500  -> 0.007100
-- Epoch 5000  -> 0.003146
-- Epoch 10000 -> 0.001452
-- Epoch 12500 -> 0.001139
-- Epoch 14000 -> 0.001008
+- Epoch 0    -> 0.319910
+- Epoch 100  -> 0.278194
+- Epoch 200  -> 0.191175
+- Epoch 300  -> 0.031606
+- Epoch 400  -> 0.006548
+- Epoch 500  -> 0.003460
+- Epoch 600  -> 0.002319
+- Epoch 700  -> 0.001733
+- Epoch 6500 -> 0.000101
 
 ## Final Output (XOR)
-- [0,0] -> 0.031660  (expected 0)
-- [0,1] -> 0.992839  (expected 1)
-- [1,0] -> 0.955179  (expected 1)
-- [1,1] -> 0.030263  (expected 0)
+- [0,0] -> 0.010069  (expected 0)
+- [0,1] -> 0.988533  (expected 1)
+- [1,0] -> 0.990609  (expected 1)
+- [1,1] -> 0.008869  (expected 0)
 
 ## What I learned
 Implementing matrix operations from scratch in C
