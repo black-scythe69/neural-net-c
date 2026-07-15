@@ -10,7 +10,7 @@ float *data;
 struct matrix *x, *y, *x1, *x2, *w1, *w1T, *w2, *w2T, *b1, *b2, 
 *a1, *a1T, *a2, *a2T, *z1, *z2, *del1, *del2, *gradW1, *gradW2, 
 *gradB1, *gradB2, *E, *yT, *xT;
-float n=1.5;
+float n=2.0;
 
 struct matrix *createMatrix(int rows, int cols){
 struct matrix *m=malloc(sizeof(struct matrix));
